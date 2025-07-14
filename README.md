@@ -1,4 +1,4 @@
-# reddit_persona_generator
+# Reddit Persona Generator
 
 Reddit User Persona Generator is a Flask-based web application that creates detailed personas from Reddit user activity.
 It analyzes comments and posts to infer demographics, personality traits, interests, and sentiment.
