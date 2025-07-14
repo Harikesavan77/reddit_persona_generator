@@ -1,0 +1,777 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Reddit User Persona Generator</title>
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            min-height: 100vh;
+            padding: 20px;
+        }
+
+        .container {
+            max-width: 1200px;
+            margin: 0 auto;
+            background: white;
+            border-radius: 20px;
+            box-shadow: 0 20px 40px rgba(0,0,0,0.1);
+            overflow: hidden;
+            animation: fadeIn 0.8s ease-out;
+        }
+
+        @keyframes fadeIn {
+            from { opacity: 0; transform: translateY(30px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .header {
+            background: linear-gradient(135deg, #ff6b6b 0%, #ee5a24 100%);
+            color: white;
+            padding: 40px;
+            text-align: center;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .header::before {
+            content: '';
+            position: absolute;
+            top: -50%;
+            left: -50%;
+            width: 200%;
+            height: 200%;
+            background: radial-gradient(circle, rgba(255,255,255,0.1) 0%, transparent 70%);
+            animation: pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes pulse {
+            0%, 100% { transform: scale(1); }
+            50% { transform: scale(1.1); }
+        }
+
+        .header h1 {
+            font-size: 2.5em;
+            margin-bottom: 10px;
+            font-weight: 700;
+            position: relative;
+            z-index: 1;
+        }
+
+        .header p {
+            font-size: 1.2em;
+            opacity: 0.9;
+            position: relative;
+            z-index: 1;
+        }
+
+        .content {
+            padding: 40px;
+        }
+
+        .input-section {
+            text-align: center;
+            margin-bottom: 40px;
+        }
+
+        .input-group {
+            display: flex;
+            justify-content: center;
+            gap: 15px;
+            max-width: 600px;
+            margin: 0 auto;
+            flex-wrap: wrap;
+        }
+
+        .input-field {
+            flex: 1;
+            min-width: 250px;
+            padding: 15px 20px;
+            border: 2px solid #e0e0e0;
+            border-radius: 10px;
+            font-size: 16px;
+            transition: all 0.3s ease;
+        }
+
+        .input-field:focus {
+            outline: none;
+            border-color: #667eea;
+            box-shadow: 0 0 0 3px rgba(102, 126, 234, 0.1);
+            transform: scale(1.02);
+        }
+
+        .analyze-btn {
+            padding: 15px 30px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            border: none;
+            border-radius: 10px;
+            font-size: 16px;
+            font-weight: 600;
+            cursor: pointer;
+            transition: all 0.3s ease;
+            min-width: 150px;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .analyze-btn::before {
+            content: '';
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            width: 0;
+            height: 0;
+            background: rgba(255,255,255,0.2);
+            border-radius: 50%;
+            transform: translate(-50%, -50%);
+            transition: width 0.3s ease, height 0.3s ease;
+        }
+
+        .analyze-btn:hover::before {
+            width: 300px;
+            height: 300px;
+        }
+
+        .analyze-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(102, 126, 234, 0.3);
+        }
+
+        .analyze-btn:disabled {
+            opacity: 0.6;
+            cursor: not-allowed;
+            transform: none;
+        }
+
+        .progress-section {
+            display: none;
+            text-align: center;
+            margin: 40px 0;
+            padding: 30px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+        }
+
+        .progress-bar {
+            width: 100%;
+            height: 8px;
+            background: #e0e0e0;
+            border-radius: 4px;
+            overflow: hidden;
+            margin: 20px 0;
+        }
+
+        .progress-fill {
+            height: 100%;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 4px;
+            transition: width 0.3s ease;
+            width: 0%;
+        }
+
+        .progress-text {
+            font-size: 1.1em;
+            color: #666;
+            margin-top: 10px;
+        }
+
+        .results-section {
+            display: none;
+            animation: slideIn 0.6s ease-out;
+        }
+
+        @keyframes slideIn {
+            from { opacity: 0; transform: translateY(20px); }
+            to { opacity: 1; transform: translateY(0); }
+        }
+
+        .persona-card {
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 15px;
+            padding: 30px;
+            margin-bottom: 30px;
+            border-left: 5px solid #667eea;
+        }
+
+        .persona-header {
+            display: flex;
+            align-items: center;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+            gap: 15px;
+        }
+
+        .persona-avatar {
+            width: 60px;
+            height: 60px;
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            font-size: 24px;
+            font-weight: bold;
+        }
+
+        .persona-info h2 {
+            color: #333;
+            margin-bottom: 5px;
+        }
+
+        .persona-meta {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .stats-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+            gap: 20px;
+            margin-bottom: 30px;
+        }
+
+        .stat-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            text-align: center;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            transition: transform 0.3s ease;
+        }
+
+        .stat-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .stat-number {
+            font-size: 2em;
+            font-weight: bold;
+            color: #667eea;
+            margin-bottom: 5px;
+        }
+
+        .stat-label {
+            color: #666;
+            font-size: 0.9em;
+        }
+
+        .section {
+            margin-bottom: 30px;
+        }
+
+        .section h3 {
+            color: #333;
+            margin-bottom: 15px;
+            border-bottom: 2px solid #667eea;
+            padding-bottom: 5px;
+        }
+
+        .tag-list {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+            margin-bottom: 15px;
+        }
+
+        .tag {
+            background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+            color: white;
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.9em;
+            font-weight: 500;
+        }
+
+        .chart-container {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 20px;
+            margin-top: 30px;
+        }
+
+        .chart-card {
+            background: white;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0 5px 15px rgba(0,0,0,0.1);
+            text-align: center;
+        }
+
+        .chart-card h4 {
+            color: #333;
+            margin-bottom: 15px;
+        }
+
+        .chart-placeholder {
+            width: 100%;
+            height: 200px;
+            background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+            border-radius: 10px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #666;
+            font-style: italic;
+        }
+
+        .error-message {
+            background: #dc3545;
+            color: white;
+            padding: 15px;
+            border-radius: 10px;
+            margin: 20px 0;
+            text-align: center;
+        }
+
+        .loading-spinner {
+            display: inline-block;
+            width: 20px;
+            height: 20px;
+            border: 3px solid #f3f3f3;
+            border-top: 3px solid #667eea;
+            border-radius: 50%;
+            animation: spin 1s linear infinite;
+            margin-right: 10px;
+        }
+
+        @keyframes spin {
+            0% { transform: rotate(0deg); }
+            100% { transform: rotate(360deg); }
+        }
+
+        .citation-list {
+            background: #f8f9fa;
+            padding: 15px;
+            border-radius: 10px;
+            margin-top: 10px;
+        }
+
+        .citation-item {
+            background: white;
+            padding: 10px;
+            border-radius: 5px;
+            margin-bottom: 10px;
+            border-left: 3px solid #667eea;
+        }
+
+        .citation-content {
+            font-style: italic;
+            color: #666;
+            margin-bottom: 5px;
+        }
+
+        .citation-meta {
+            font-size: 0.8em;
+            color: #999;
+        }
+
+        @media (max-width: 768px) {
+            .input-group {
+                flex-direction: column;
+                align-items: center;
+            }
+            
+            .input-field {
+                min-width: 100%;
+                margin-bottom: 15px;
+            }
+            
+            .header h1 {
+                font-size: 2em;
+            }
+            
+            .content {
+                padding: 20px;
+            }
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="header">
+            <h1>Reddit User Persona Generator</h1>
+            <p>Discover detailed insights about any Reddit user's personality, interests, and behavior patterns</p>
+        </div>
+
+        <div class="content">
+            <div class="input-section">
+                <div class="input-group">
+                    <input type="text" id="username" class="input-field" placeholder="Enter Reddit username (without u/)" />
+                    <button id="analyzeBtn" class="analyze-btn">
+                        <span id="btnText">Analyze User</span>
+                    </button>
+                </div>
+            </div>
+
+            <div id="progressSection" class="progress-section">
+                <div class="loading-spinner"></div>
+                <div class="progress-bar">
+                    <div id="progressFill" class="progress-fill"></div>
+                </div>
+                <div id="progressText" class="progress-text">Initializing analysis...</div>
+            </div>
+
+            <div id="errorMessage" class="error-message" style="display: none;"></div>
+
+            <div id="resultsSection" class="results-section">
+                <div class="persona-card">
+                    <div class="persona-header">
+                        <div class="persona-avatar" id="personaAvatar">U</div>
+                        <div class="persona-info">
+                            <h2 id="personaUsername">Username</h2>
+                            <div class="persona-meta">
+                                <span id="personaAge">Account Age</span> • 
+                                <span id="personaKarma">Karma</span> • 
+                                <span id="personaConfidence">Confidence</span>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="stats-grid">
+                        <div class="stat-card">
+                            <div class="stat-number" id="statPosts">0</div>
+                            <div class="stat-label">Posts</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="statComments">0</div>
+                            <div class="stat-label">Comments</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="statActiveHour">0</div>
+                            <div class="stat-label">Most Active Hour</div>
+                        </div>
+                        <div class="stat-card">
+                            <div class="stat-number" id="statActiveDay">Mon</div>
+                            <div class="stat-label">Most Active Day</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h3>🎯 Demographics</h3>
+                        <div class="tag-list">
+                            <div class="tag" id="ageTag">Age: Unknown</div>
+                            <div class="tag" id="genderTag">Gender: Unknown</div>
+                            <div class="tag" id="locationTag">Location: Unknown</div>
+                        </div>
+                    </div>
+
+                    <div class="section">
+                        <h3>🧠 Personality Traits</h3>
+                        <div id="personalityTags" class="tag-list"></div>
+                    </div>
+
+                    <div class="section">
+                        <h3>❤️ Primary Interests</h3>
+                        <div id="interestTags" class="tag-list"></div>
+                    </div>
+
+                    <div class="section">
+                        <h3>📱 Favorite Subreddits</h3>
+                        <div id="subredditTags" class="tag-list"></div>
+                    </div>
+
+                    <div class="section">
+                        <h3>📊 Sentiment Analysis</h3>
+                        <div class="stats-grid">
+                            <div class="stat-card">
+                                <div class="stat-number" id="positivePercent">0%</div>
+                                <div class="stat-label">Positive</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" id="negativePercent">0%</div>
+                                <div class="stat-label">Negative</div>
+                            </div>
+                            <div class="stat-card">
+                                <div class="stat-number" id="neutralPercent">0%</div>
+                                <div class="stat-label">Neutral</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="chart-container">
+                        <div class="chart-card">
+                            <h4>Activity Patterns</h4>
+                            <div class="chart-placeholder">
+                                Activity charts would appear here<br>
+                                (Backend integration required)
+                            </div>
+                        </div>
+                        <div class="chart-card">
+                            <h4>Engagement Timeline</h4>
+                            <div class="chart-placeholder">
+                                Timeline visualization would appear here<br>
+                                (Backend integration required)
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script>
+        class PersonaGenerator {
+            constructor() {
+                this.init();
+            }
+
+            init() {
+                this.setupEventListeners();
+                this.elements = {
+                    username: document.getElementById('username'),
+                    analyzeBtn: document.getElementById('analyzeBtn'),
+                    btnText: document.getElementById('btnText'),
+                    progressSection: document.getElementById('progressSection'),
+                    progressFill: document.getElementById('progressFill'),
+                    progressText: document.getElementById('progressText'),
+                    errorMessage: document.getElementById('errorMessage'),
+                    resultsSection: document.getElementById('resultsSection')
+                };
+            }
+
+            setupEventListeners() {
+                document.getElementById('analyzeBtn').addEventListener('click', () => {
+                    this.startAnalysis();
+                });
+
+                document.getElementById('username').addEventListener('keypress', (e) => {
+                    if (e.key === 'Enter') {
+                        this.startAnalysis();
+                    }
+                });
+
+                // Add input validation
+                document.getElementById('username').addEventListener('input', (e) => {
+                    const username = e.target.value.trim();
+                    const btn = document.getElementById('analyzeBtn');
+                    btn.disabled = username.length === 0;
+                });
+            }
+
+            async startAnalysis() {
+                const username = this.elements.username.value.trim();
+                
+                if (!username) {
+                    this.showError('Please enter a username');
+                    return;
+                }
+
+                // Clean username (remove u/ if present)
+                const cleanUsername = username.replace(/^u\//, '');
+
+                this.showProgress();
+                this.hideError();
+                this.hideResults();
+
+                try {
+                    // Start analysis
+                    const response = await fetch('/analyze', {
+                        method: 'POST',
+                        headers: {
+                            'Content-Type': 'application/json',
+                        },
+                        body: JSON.stringify({ username: cleanUsername })
+                    });
+
+                    if (!response.ok) {
+                        throw new Error('Failed to start analysis');
+                    }
+
+                    const data = await response.json();
+                    const sessionId = data.session_id;
+
+                    // Poll for status updates
+                    this.pollStatus(sessionId);
+
+                } catch (error) {
+                    this.showError('Error starting analysis: ' + error.message);
+                    this.hideProgress();
+                    this.resetButton();
+                }
+            }
+
+            async pollStatus(sessionId) {
+                const maxAttempts = 60; // 5 minutes max
+                let attempts = 0;
+
+                const poll = async () => {
+                    try {
+                        const response = await fetch(`/status/${sessionId}`);
+                        const status = await response.json();
+
+                        if (status.status === 'complete') {
+                            this.loadResults(sessionId);
+                            return;
+                        }
+
+                        if (status.status === 'error') {
+                            this.showError(status.message || 'Analysis failed');
+                            this.hideProgress();
+                            this.resetButton();
+                            return;
+                        }
+
+                        // Update progress
+                        this.updateProgress(status.progress || 0, status.status);
+
+                        attempts++;
+                        if (attempts < maxAttempts) {
+                            setTimeout(poll, 2000); // Poll every 2 seconds
+                        } else {
+                            this.showError('Analysis timed out');
+                            this.hideProgress();
+                            this.resetButton();
+                        }
+
+                    } catch (error) {
+                        this.showError('Error checking status: ' + error.message);
+                        this.hideProgress();
+                        this.resetButton();
+                    }
+                };
+
+                poll();
+            }
+
+            async loadResults(sessionId) {
+                try {
+                    const response = await fetch(`/result/${sessionId}`);
+                    const persona = await response.json();
+
+                    this.hideProgress();
+                    this.displayResults(persona);
+                    this.resetButton();
+
+                } catch (error) {
+                    this.showError('Error loading results: ' + error.message);
+                    this.hideProgress();
+                    this.resetButton();
+                }
+            }
+
+            displayResults(persona) {
+                // Update persona header
+                document.getElementById('personaAvatar').textContent = persona.username.charAt(0).toUpperCase();
+                document.getElementById('personaUsername').textContent = `u/${persona.username}`;
+                document.getElementById('personaAge').textContent = `${persona.account_age} days old`;
+                document.getElementById('personaKarma').textContent = `${persona.total_karma.toLocaleString()} karma`;
+                document.getElementById('personaConfidence').textContent = `${Math.round(persona.analysis_confidence * 100)}% confidence`;
+
+                // Update stats
+                document.getElementById('statPosts').textContent = persona.activity_pattern.total_posts || 0;
+                document.getElementById('statComments').textContent = persona.activity_pattern.total_comments || 0;
+                document.getElementById('statActiveHour').textContent = persona.activity_pattern.most_active_hour || 'Unknown';
+                document.getElementById('statActiveDay').textContent = persona.activity_pattern.most_active_day || 'Unknown';
+
+                // Update demographics
+                document.getElementById('ageTag').textContent = `Age: ${persona.estimated_age_range}`;
+                document.getElementById('genderTag').textContent = `Gender: ${persona.likely_gender}`;
+                document.getElementById('locationTag').textContent = `Location: ${persona.estimated_location}`;
+
+                // Update personality traits
+                this.updateTagList('personalityTags', persona.personality_traits);
+
+                // Update interests
+                this.updateTagList('interestTags', persona.primary_interests);
+
+                // Update subreddits
+                this.updateTagList('subredditTags', persona.favorite_subreddits.slice(0, 10));
+
+                // Update sentiment
+                const sentiment = persona.sentiment_profile;
+                document.getElementById('positivePercent').textContent = `${Math.round(sentiment.positive * 100)}%`;
+                document.getElementById('negativePercent').textContent = `${Math.round(sentiment.negative * 100)}%`;
+                document.getElementById('neutralPercent').textContent = `${Math.round(sentiment.neutral * 100)}%`;
+
+                this.showResults();
+            }
+
+            updateTagList(elementId, items) {
+                const container = document.getElementById(elementId);
+                container.innerHTML = '';
+                
+                if (!items || items.length === 0) {
+                    const emptyTag = document.createElement('div');
+                    emptyTag.className = 'tag';
+                    emptyTag.textContent = 'No data available';
+                    container.appendChild(emptyTag);
+                    return;
+                }
+
+                items.forEach(item => {
+                    const tag = document.createElement('div');
+                    tag.className = 'tag';
+                    tag.textContent = item;
+                    container.appendChild(tag);
+                });
+            }
+
+            showProgress() {
+                this.elements.progressSection.style.display = 'block';
+                this.elements.analyzeBtn.disabled = true;
+                this.elements.btnText.innerHTML = '<span class="loading-spinner"></span>Analyzing...';
+            }
+
+            hideProgress() {
+                this.elements.progressSection.style.display = 'none';
+            }
+
+            updateProgress(progress, status) {
+                this.elements.progressFill.style.width = `${progress}%`;
+                this.elements.progressText.textContent = this.getStatusText(status);
+            }
+
+            getStatusText(status) {
+                const statusTexts = {
+                    'extracting_data': 'Extracting user data from Reddit...',
+                    'analyzing_demographics': 'Analyzing demographics...',
+                    'analyzing_personality': 'Analyzing personality traits...',
+                    'analyzing_interests': 'Analyzing interests and hobbies...',
+                    'analyzing_sentiment': 'Analyzing sentiment patterns...',
+                    'analyzing_activity': 'Analyzing activity patterns...',
+                    'complete': 'Analysis complete!'
+                };
+                return statusTexts[status] || 'Processing...';
+            }
+
+            showError(message) {
+                this.elements.errorMessage.textContent = message;
+                this.elements.errorMessage.style.display = 'block';
+            }
+
+            hideError() {
+                this.elements.errorMessage.style.display = 'none';
+            }
+
+            showResults() {
+                this.elements.resultsSection.style.display = 'block';
+                this.elements.resultsSection.scrollIntoView({ behavior: 'smooth' });
+            }
+
+            hideResults() {
+                this.elements.resultsSection.style.display = 'none';
+            }
+
+            resetButton() {
+                this.elements.analyzeBtn.disabled = false;
+                this.elements.btnText.textContent = 'Analyze User';
+            }
+        }
+
+        // Initialize the application
+        document.addEventListener('DOMContentLoaded', () => {
+            new PersonaGenerator();
+        });
+    </script>
+</body>
+</html>

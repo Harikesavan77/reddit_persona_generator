@@ -1,0 +1,846 @@
+{
+  "username": "GallowBoob",
+  "account_age": 3933,
+  "total_karma": 36833307,
+  "estimated_age_range": "adult",
+  "likely_gender": "male",
+  "estimated_location": "the title",
+  "occupation_indicators": [],
+  "personality_traits": [
+    "creative",
+    "optimistic",
+    "extroverted"
+  ],
+  "communication_style": "Unknown",
+  "humor_style": "Unknown",
+  "political_leaning": "Unknown",
+  "primary_interests": [
+    "gaming"
+  ],
+  "secondary_interests": [],
+  "expertise_areas": [],
+  "activity_pattern": {
+    "most_active_hour": 22,
+    "most_active_day": "Friday",
+    "activity_by_hour": {
+      "23": 25,
+      "21": 23,
+      "5": 12,
+      "2": 20,
+      "8": 9,
+      "20": 26,
+      "1": 24,
+      "7": 24,
+      "3": 23,
+      "6": 6,
+      "0": 27,
+      "4": 8,
+      "19": 16,
+      "16": 5,
+      "22": 40,
+      "18": 6,
+      "17": 5,
+      "14": 1
+    },
+    "activity_by_day": {
+      "Saturday": 33,
+      "Tuesday": 22,
+      "Wednesday": 43,
+      "Sunday": 39,
+      "Friday": 66,
+      "Thursday": 58,
+      "Monday": 39
+    },
+    "total_posts": 100,
+    "total_comments": 200,
+    "avg_posts_per_day": 0.025425883549453344
+  },
+  "favorite_subreddits": [
+    "u_GallowBoob",
+    "interestingasfuck",
+    "aww",
+    "nextfuckinglevel",
+    "BlackPeopleTwitter",
+    "oddlyterrifying",
+    "dankmemes",
+    "pics",
+    "Wellthatsucks",
+    "wholesomebpt"
+  ],
+  "engagement_style": "Unknown",
+  "content_preference": "Unknown",
+  "sentiment_profile": {
+    "positive": 0.35,
+    "negative": 0.09666666666666666,
+    "neutral": 0.5533333333333333
+  },
+  "linguistic_patterns": {},
+  "behavioral_timeline": [],
+  "influence_network": {},
+  "analysis_confidence": 0.75,
+  "generation_timestamp": "2025-07-14T18:54:28.052264",
+  "citations": {
+    "estimated_age_range": [
+      {
+        "content": "Nothing cooler than a rescued baby bats necklace. Baby bat season is upon us and the great folks at Bat World Sanctuary work double time saving these babies in Texas. ...",
+        "url": "https://reddit.com/r/aww/comments/ob3q1u/nothing_cooler_than_a_rescued_baby_bats_necklace/",
+        "timestamp": "2021-07-01 00:15:53",
+        "type": "post",
+        "subreddit": "aww",
+        "score": 25848,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "Jo Brown started keeping her nature diary in a bid to document the small wonders of the woods behind her home in Devon and her work is some of the most fascinating i\u2019ve ever seen. ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/iuo7en/jo_brown_started_keeping_her_nature_diary_in_a/",
+        "timestamp": "2020-09-17 23:01:32",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 39147,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "Regarding the state of reddit and moderation: Just wanted to drop a brief 2cents regarding the current, and ongoing, state of this platform and its constant loud discourse around the pros and cons of ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ird261/regarding_the_state_of_reddit_and_moderation/",
+        "timestamp": "2020-09-12 19:28:35",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 921,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "I haven't considered it but seeing that Twitch leak sure is making me reconsider career choices......",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/q3f7d4/i_guess_its_time_to_celebrate_my_7th_cake_day_on/hfrnr0g/",
+        "timestamp": "2021-10-08 01:18:17",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 3,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "On reddit? I don't think the platform monetized anything yet on the personal user level. Unless I missed it? One thing that is coming soon: been working on a mental health initiative (non-profit fully...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/q3f7d4/i_guess_its_time_to_celebrate_my_7th_cake_day_on/hfrhc50/",
+        "timestamp": "2021-10-08 00:33:51",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 40,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "The setup is amateur only because it's my first attempt. One monitor is linked to the work laptop, the other is linked to the gaming desktop. I keep having to move mouses and keyboards around every da...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/q3f7d4/i_guess_its_time_to_celebrate_my_7th_cake_day_on/hfrf7g4/",
+        "timestamp": "2021-10-08 00:19:13",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 7,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "From a mod perspective, more tools = more \u2018work\u2019 = nope\n\nBut overall sounds like an interesting addition if it\u2019s not chaotically rolled out\n\nLink: https://twitter.com/reddit/status/1384175462088249346...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/mu41ai/reddit_is_introducing_a_new_voice_chat/gv3gsmp/",
+        "timestamp": "2021-04-19 21:42:17",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "Here's the article if you want to check it out: https://www.latimes.com/business/technology/story/2021-02-19/can-democracy-work-on-the-internet-reddit-tells-a-mixed-story...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/lnrxax/was_a_fun_chat_to_be_part_of_free_volunteer/go1zujy/",
+        "timestamp": "2021-02-20 03:48:53",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "I feel you and what you're doing is great, just make sure it's not harming you mentally too. I would not rely on mods to take actions in the case of involuntary porn and / or CP. Sure, flag it to the ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ird261/regarding_the_state_of_reddit_and_moderation/g4y02fd/",
+        "timestamp": "2020-09-12 22:00:09",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 7,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "Let's see if it works. Dun Dun DUNN...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ifs2m4/the_nerd_in_me_has_peaked_its_all_downhill_from/g2pe6f5/",
+        "timestamp": "2020-08-24 21:53:55",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 5,
+        "confidence": 0.7857142857142857
+      },
+      {
+        "content": "I had people at work refer to me by calling me \u201cboob\u201d with a serious face. It was worth it. I also asked them to stop....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/idy6a6/this_is_going_in_my_stop_crying_itll_get_better/g2c2etj/",
+        "timestamp": "2020-08-21 21:13:13",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 21,
+        "confidence": 0.7857142857142857
+      }
+    ],
+    "likely_gender": [
+      {
+        "content": "Friend spotted this guy riding his bike through the park with a wild crow sat on his head. This is peak existential chill. ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/r3k10s/friend_spotted_this_guy_riding_his_bike_through/",
+        "timestamp": "2021-11-28 00:19:09",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 610,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "This is a good way to visually demonstrate how borked any flat projection of a globe is. What a human face looks like stretched flat like a map: ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/odsuk7/this_is_a_good_way_to_visually_demonstrate_how/",
+        "timestamp": "2021-07-05 02:24:44",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 8560,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Super rare bilateral gynandromorph stag beetle. The left side is male and the right side is female. ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/o6jo02/super_rare_bilateral_gynandromorph_stag_beetle/",
+        "timestamp": "2021-06-24 00:39:35",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 15598,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "This 6 ft Baby Yoda snowman ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/knv18j/this_6_ft_baby_yoda_snowman/",
+        "timestamp": "2020-12-31 23:45:53",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 23242,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Catching sunsets with the father \u2600\ufe0f ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/j0twob/catching_sunsets_with_the_father/",
+        "timestamp": "2020-09-27 21:52:56",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 495,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Jo Brown started keeping her nature diary in a bid to document the small wonders of the woods behind her home in Devon and her work is some of the most fascinating i\u2019ve ever seen. ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/iuo7en/jo_brown_started_keeping_her_nature_diary_in_a/",
+        "timestamp": "2020-09-17 23:01:32",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 39147,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Good to see a familiar face dude! Yeah been afk haven\u2019t used reddit much lately except for r/darktide \ud83d\udc7e...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/148t5bm/current_state_of_reddit_art_by_beeple/jo1yr26/",
+        "timestamp": "2023-06-14 06:47:22",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 24,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "I am truly grateful to have met you my bro o/...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/q3f7d4/i_guess_its_time_to_celebrate_my_7th_cake_day_on/hfs57gr/",
+        "timestamp": "2021-10-08 03:22:41",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 11,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "I need cable management help, yes my setup is not optimal, yes i am ready to get shit for it. I\u2019m taking notes \ud83d\udcdd...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/q3f7d4/i_guess_its_time_to_celebrate_my_7th_cake_day_on/hfrb46n/",
+        "timestamp": "2021-10-07 23:50:58",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Pet hugs also count my bro!...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/o1iy96/remember_to_regularly_get_checked_for_hug/h21357v/",
+        "timestamp": "2021-06-17 05:24:30",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 44,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "v.reddit is like a blind youtube, you upload a video and you have 0 access to any analytics behind the performance. It's not like it's limited or something (like just views etc), LITERALLY ABSOLUTELY ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/mu41ai/reddit_is_introducing_a_new_voice_chat/gv3ulj1/",
+        "timestamp": "2021-04-19 23:18:24",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 31,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "I\u2019ve had chats deactivated ever since it was rolled out, it just was broken then and i guess it still is broken now. Fixing or optimizing current tools > adding new ones...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/mu41ai/reddit_is_introducing_a_new_voice_chat/gv3ifgw/",
+        "timestamp": "2021-04-19 21:53:40",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 58,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Life has been playing pingpong with me lately, also reddit became a bit too loud for a while there, also i've been gaming a bit too much (played like 15 games in the last 2 months fml) \n\nHope you're d...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/lx29ms/cool_new_feature_reddit/gpkme0o/",
+        "timestamp": "2021-03-04 01:39:37",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 46,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "onlyfans for reddit creepy-browsing, yup this is a viable business...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/lx29ms/cool_new_feature_reddit/gpkm7fa/",
+        "timestamp": "2021-03-04 01:38:18",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 17,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "I'm keeping it on \"hiding\" forever though, no one's business if i'm browsing reddit at 5am....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/lx29ms/cool_new_feature_reddit/gpkhh2s/",
+        "timestamp": "2021-03-04 01:04:13",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Okay you win I give up. Does that make you my dad? Wtf happens now...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/lbyawl/take_care_of_you_this_is_an_order/glwwj62/",
+        "timestamp": "2021-02-04 03:18:27",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 19,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Tagging the awesome artist! Thanks again bro u/Raulstermaster...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/kbt0mg/thank_you_for_the_awesome_art_uraulstermaster/gfjzraa/",
+        "timestamp": "2020-12-12 23:01:09",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "SaltyHuman is slappin' more truth...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/j51f7r/shit_really_be_fucked/g7p0glj/",
+        "timestamp": "2020-10-04 22:12:28",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 28,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Gonna take daily walks in the garden now that i know there are baby shelled friends and just try to flip any back, in case they got unlucky. But also please do that if you manage to thank you....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/iwerk2/found_this_little_baby_on_its_back_in_a_nearby/g602b1j/",
+        "timestamp": "2020-09-20 22:55:10",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 26,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "**SOMEONE GIVE THIS MAN/WOMAN/DOG a coin award!!!**\n\nI would spam your ass but as i said above \n\n> i have some 6k but can't even give trophies atm since it's been bugged for 2 months and admins are \"i...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/iv6tqj/curse_all_those_cheap_spammy_reddit_trophies_i/g5pi9hy/",
+        "timestamp": "2020-09-18 20:37:10",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 36,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "oof take my upvote\n\nBut to answer the other comment i have women friends who have and have witnessed enough posts online with screenshots suggesting literally that. Also have male friends who said thi...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/itwxbm/true_story/g5h59te/",
+        "timestamp": "2020-09-16 20:24:10",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 16,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "The culprits are u/walid717 and u/SaltyHuman111 i am keeping tabs and will take my revenge soon just you wait\n\n----\n\n[**Join our circus on discord here**](https://discord.gg/c7aWTgy)...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/imh00q/my_discord_community_is_giving_me_nightmares_and/g3zma98/",
+        "timestamp": "2020-09-04 20:04:46",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "One last note:\n\nWe are looking for positive individuals who would fit our mod team, we\u2019re a chill but dedicated bunch of redditors trying to keep one of reddit\u2019s fastest growing subs fun and interesti...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/iiudh3/rnextfuckinglevel_is_looking_for_new_community/g38zo98/",
+        "timestamp": "2020-08-29 21:15:34",
+        "type": "comment",
+        "subreddit": "nextfuckinglevel",
+        "score": 111,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "I would choose 9999 monkeys over the human race any day....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ihlq6j/this_is_my_shitty_superhero_origin_story/g31lpyp/",
+        "timestamp": "2020-08-27 23:13:02",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 2,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Just ask for people to remember the human on this hellscape of a platform. Thanks Mr Smart Fridge20...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/idy6a6/this_is_going_in_my_stop_crying_itll_get_better/g2byjmj/",
+        "timestamp": "2020-08-21 20:41:56",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 6,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "It's all coming together soon but I personally want you guys to pick / vote charities because if it comes just from us it's a bit underwhelming imo....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/icta08/someone_made_this_on_my_discord_and_now_its_my/g25e0yl/",
+        "timestamp": "2020-08-20 03:28:39",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 2,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "We will get him above -1 he has my word. We'll call it **operation karmawhoring Lostvayne12's dad.**...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/i9u3vp/why_swiping_right_on_profiles_with_only_1_picture/g1hr29o/",
+        "timestamp": "2020-08-15 03:54:46",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 9,
+        "confidence": 0.8157894736842105
+      },
+      {
+        "content": "Hi to your dad u/Lostvayne12 tell him to get on reddit we'll give him a good welcome party...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/i9u3vp/why_swiping_right_on_profiles_with_only_1_picture/g1hpczk/",
+        "timestamp": "2020-08-15 03:40:06",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 14,
+        "confidence": 0.8157894736842105
+      }
+    ],
+    "personality_traits": [
+      {
+        "content": "This is Nami. Her ears are finally starting to stand up, of course only one at a time.  ...",
+        "url": "https://reddit.com/r/aww/comments/1hm28v1/this_is_nami_her_ears_are_finally_starting_to/",
+        "timestamp": "2024-12-25 20:33:07",
+        "type": "post",
+        "subreddit": "aww",
+        "score": 109,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Reddit to start paying its users for using the app? I guess it's time to come out of hibernation \ud83d\udc40 ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/16saieb/reddit_to_start_paying_its_users_for_using_the/",
+        "timestamp": "2023-09-26 07:12:25",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 172,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Current state of reddit (art by beeple) ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/148t5bm/current_state_of_reddit_art_by_beeple/",
+        "timestamp": "2023-06-14 05:20:15",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 333,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Was a fun chat to be part of. Free volunteer moderation models are questionably flawed, but organically curated and moderated communities are also an essential part of our online fabric (article in co...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/lnrxax/was_a_fun_chat_to_be_part_of_free_volunteer/",
+        "timestamp": "2021-02-20 03:48:18",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 715,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "These long neck boys, also known as snake turtles, have one of the most cartoon looking face in the animal kingdom and will snap your finger right off if you\u2019re not careful ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/kceagx/these_long_neck_boys_also_known_as_snake_turtles/",
+        "timestamp": "2020-12-13 22:42:16",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 6974,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Thank you for the awesome art u/Raulstermaster! \ud83d\udc4a ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/kbt0mg/thank_you_for_the_awesome_art_uraulstermaster/",
+        "timestamp": "2020-12-12 23:00:41",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 556,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Jo Brown started keeping her nature diary in a bid to document the small wonders of the woods behind her home in Devon and her work is some of the most fascinating i\u2019ve ever seen. ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/iuo7en/jo_brown_started_keeping_her_nature_diary_in_a/",
+        "timestamp": "2020-09-17 23:01:32",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 39147,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Cicada shell art ...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/imsgiy/cicada_shell_art/",
+        "timestamp": "2020-09-05 06:54:07",
+        "type": "post",
+        "subreddit": "nextfuckinglevel",
+        "score": 10114,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "I bought two today. At like $10 - $40 a pop. Wanted to support the artists, but also tinker with that new feature. Used one as my pfp on here but can see a lot of pushback against that update site wid...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/vxqsmb/been_a_while_hope_youre_all_well_and_staying_out/ify39te/",
+        "timestamp": "2022-07-13 08:52:58",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 7,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": ">I deleted my previous account when it got too popular\n\nHonestly that's a smart move. I'm taking notes....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/qwapr3/i_have_reddit_premium_until_2052_whats_your/hl2gd10/",
+        "timestamp": "2021-11-18 07:32:57",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 42,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "[Here's a link to the artist's IG, thanks for reminding us to sticky it.](https://www.instagram.com/p/CUkuUcwofEt/)  \n\n\nEdit: this is now a community award...",
+        "url": "https://reddit.com/r/oddlyterrifying/comments/q2520f/419k_of_you_voted_and_we_listened_this_subreddit/hfjh318/",
+        "timestamp": "2021-10-06 04:55:59",
+        "type": "comment",
+        "subreddit": "oddlyterrifying",
+        "score": 1,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Here's the article if you want to check it out: https://www.latimes.com/business/technology/story/2021-02-19/can-democracy-work-on-the-internet-reddit-tells-a-mixed-story...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/lnrxax/was_a_fun_chat_to_be_part_of_free_volunteer/go1zujy/",
+        "timestamp": "2021-02-20 03:48:53",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Tagging the awesome artist! Thanks again bro u/Raulstermaster...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/kbt0mg/thank_you_for_the_awesome_art_uraulstermaster/gfjzraa/",
+        "timestamp": "2020-12-12 23:01:09",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "I AM PROUD OF YOU TOO YOU THE SMARTEST FRIDGE I KNOW \u2764\ufe0f...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/iyx5vt/true_story/g6fbnsc/",
+        "timestamp": "2020-09-24 19:34:47",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 8,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Woweee OP! You got a lot of reddit trophies for this post! Take a mod award while we're at it. If only they were donating to you directly instead as an artist, since all this does is give you reddit p...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/iwypw8/someone_stole_my_art_nextfuckinglevel_style/g64g5yc/",
+        "timestamp": "2020-09-21 22:41:51",
+        "type": "comment",
+        "subreddit": "nextfuckinglevel",
+        "score": 1,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "This is art right in the feels https://twitter.com/false_cant_draw/status/1307716897807491079?s=21...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/iwerk2/found_this_little_baby_on_its_back_in_a_nearby/g5zxemi/",
+        "timestamp": "2020-09-20 22:14:12",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "O.M.F.G \n\nDidn't plan on a flood of feels on Monday... I love you and I hope your week is starting off well <3...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ismpc5/breakfast_at_the_parents_making_me_want_to_just/g58s5ga/",
+        "timestamp": "2020-09-14 21:25:07",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 18,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "The thing that sucks is that 99% of mods have 0 training and just get vetted by other mods who also have 0 training. So you can imagine how it can get clusterfucky at times. \n\nAlmost any \"involuntary ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ird261/regarding_the_state_of_reddit_and_moderation/g4xx3gk/",
+        "timestamp": "2020-09-12 21:38:41",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 14,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Thank you for the feels and the art u/RaulsterMaster. We not worthy, well maybe SrGrafo is, but it is really appreciated it <3\n\nedit: GO FOLLOW u/RaulsterMaster \ud83d\udd25...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ifs2m4/the_nerd_in_me_has_peaked_its_all_downhill_from/g2pdsbp/",
+        "timestamp": "2020-08-24 21:50:47",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Just ask for people to remember the human on this hellscape of a platform. Thanks Mr Smart Fridge20...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/idy6a6/this_is_going_in_my_stop_crying_itll_get_better/g2byjmj/",
+        "timestamp": "2020-08-21 20:41:56",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 6,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Thank you u/Tio2025 your art speaks to me on all levels <3 \n\n----\n\n[**You can come join our discord here**](https://discord.gg/c7aWTgy), just a bunch of gamers, anime nerds, and redditors hanging out....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/icta08/someone_made_this_on_my_discord_and_now_its_my/g24msn3/",
+        "timestamp": "2020-08-19 23:56:52",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "Hi to your dad u/Lostvayne12 tell him to get on reddit we'll give him a good welcome party...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/i9u3vp/why_swiping_right_on_profiles_with_only_1_picture/g1hpczk/",
+        "timestamp": "2020-08-15 03:40:06",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 14,
+        "confidence": 0.4716981132075472
+      },
+      {
+        "content": "This is a good way to visually demonstrate how borked any flat projection of a globe is. What a human face looks like stretched flat like a map: ...",
+        "url": "https://reddit.com/r/interestingasfuck/comments/odsuk7/this_is_a_good_way_to_visually_demonstrate_how/",
+        "timestamp": "2021-07-05 02:24:44",
+        "type": "post",
+        "subreddit": "interestingasfuck",
+        "score": 8560,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Happy month of the spook! We welcome your next fucking level Halloween costumes or your good finds for the whole month of October on r/nextfuckinglevel \ud83c\udf83 ...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/j3ca47/happy_month_of_the_spook_we_welcome_your_next/",
+        "timestamp": "2020-10-01 22:17:51",
+        "type": "post",
+        "subreddit": "nextfuckinglevel",
+        "score": 12233,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "This looks amazing but $600 does seem a bit unrealistic ...",
+        "url": "https://reddit.com/r/wholesomebpt/comments/ilrmf5/this_looks_amazing_but_600_does_seem_a_bit/",
+        "timestamp": "2020-09-03 16:58:36",
+        "type": "post",
+        "subreddit": "wholesomebpt",
+        "score": 10368,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Imagine having a DM this amazing ...",
+        "url": "https://reddit.com/r/gaming/comments/ikxt47/imagine_having_a_dm_this_amazing/",
+        "timestamp": "2020-09-02 07:22:18",
+        "type": "post",
+        "subreddit": "gaming",
+        "score": 28811,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Good to see a familiar face dude! Yeah been afk haven\u2019t used reddit much lately except for r/darktide \ud83d\udc7e...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/148t5bm/current_state_of_reddit_art_by_beeple/jo1yr26/",
+        "timestamp": "2023-06-14 06:47:22",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 24,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "I'm good Alex! Thanks for asking. Hope you're enjoying your summer sir. I'm merely poppin in to say hello, haven't posted here in months....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/vxqsmb/been_a_while_hope_youre_all_well_and_staying_out/ifxzwil/",
+        "timestamp": "2022-07-13 08:25:00",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 8,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "lmao good Q this is the wifi antenna of my desktop pc, took me a good week before i figured out what it was for...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/q3f7d4/i_guess_its_time_to_celebrate_my_7th_cake_day_on/hfrhkxb/",
+        "timestamp": "2021-10-08 00:35:33",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 6,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Howdy and have a good weekend!...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/nxrtif/this_literally_sums_up_my_life/h1ghp2w/",
+        "timestamp": "2021-06-12 04:17:54",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 3,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Every single shitpost i make that hits r/all gets SPAMMED they aren't even that good of posts my inbox is always blasted with shitty trophies that have ZERO value what so ever. \n\nI get that this might...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/iv6tqj/curse_all_those_cheap_spammy_reddit_trophies_i/g5pcmf7/",
+        "timestamp": "2020-09-18 19:48:07",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 14,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Good call thanks deleted! It was impossible to find with backward image search engines since the one you linked to is cropped and the one i posted is not. Appreciate it...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/iksbbw/someone_reminded_me_this_exists_today_fml/g3qpqox/",
+        "timestamp": "2020-09-02 22:46:58",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 4,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Terminator saw the pipe and commented here 30 days ago: https://www.reddit.com/r/Damnthatsinteresting/comments/i0sk2r/i_carved_this_pipe_specially_for_arnolds_birthday/fzzvl5s/\n\nOP this shit is cool t...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/il4o88/i_carved_and_gifted_the_terminator_pipe_to_arnold/g3ppsq6/",
+        "timestamp": "2020-09-02 18:39:25",
+        "type": "comment",
+        "subreddit": "nextfuckinglevel",
+        "score": 1,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "One last note:\n\nWe are looking for positive individuals who would fit our mod team, we\u2019re a chill but dedicated bunch of redditors trying to keep one of reddit\u2019s fastest growing subs fun and interesti...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/iiudh3/rnextfuckinglevel_is_looking_for_new_community/g38zo98/",
+        "timestamp": "2020-08-29 21:15:34",
+        "type": "comment",
+        "subreddit": "nextfuckinglevel",
+        "score": 111,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Thank you DD. Just catching up with the family after 8 months of covid horrors. I hope life is good on your end!...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/if5g6h/when_you_visiting_your_parents_and_remember_what/g2lo9dv/",
+        "timestamp": "2020-08-23 22:30:48",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 9,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "It tasted so good but anytime i try to recreate it it tastes like shit...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/if5g6h/when_you_visiting_your_parents_and_remember_what/g2lo7d9/",
+        "timestamp": "2020-08-23 22:30:25",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 9,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "You are one of the good ones <3...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ibgx2i/media_people_will_feel_this/g1wd620/",
+        "timestamp": "2020-08-18 01:06:59",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 1,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Hi to your dad u/Lostvayne12 tell him to get on reddit we'll give him a good welcome party...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/i9u3vp/why_swiping_right_on_profiles_with_only_1_picture/g1hpczk/",
+        "timestamp": "2020-08-15 03:40:06",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 14,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "LMAO what the hell is that bot \n\nAlso if you can't do discord it's all good, will welcome you when you join eventually!...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/i94o3d/finally_made_a_gallowboob_discord_for_all_your/g1daip6/",
+        "timestamp": "2020-08-14 02:16:33",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 3,
+        "confidence": 0.3584905660377358
+      },
+      {
+        "content": "Regarding the state of reddit and moderation: Just wanted to drop a brief 2cents regarding the current, and ongoing, state of this platform and its constant loud discourse around the pros and cons of ...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/ird261/regarding_the_state_of_reddit_and_moderation/",
+        "timestamp": "2020-09-12 19:28:35",
+        "type": "post",
+        "subreddit": "u_GallowBoob",
+        "score": 921,
+        "confidence": 0.1320754716981132
+      },
+      {
+        "content": "Woweee OP! You got a lot of reddit trophies for this post! Take a mod award while we're at it. If only they were donating to you directly instead as an artist, since all this does is give you reddit p...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/iwypw8/someone_stole_my_art_nextfuckinglevel_style/g64g5yc/",
+        "timestamp": "2020-09-21 22:41:51",
+        "type": "comment",
+        "subreddit": "nextfuckinglevel",
+        "score": 1,
+        "confidence": 0.1320754716981132
+      },
+      {
+        "content": "Gonna take daily walks in the garden now that i know there are baby shelled friends and just try to flip any back, in case they got unlucky. But also please do that if you manage to thank you....",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/iwerk2/found_this_little_baby_on_its_back_in_a_nearby/g602b1j/",
+        "timestamp": "2020-09-20 22:55:10",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 26,
+        "confidence": 0.1320754716981132
+      },
+      {
+        "content": "oof take my upvote\n\nBut to answer the other comment i have women friends who have and have witnessed enough posts online with screenshots suggesting literally that. Also have male friends who said thi...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/itwxbm/true_story/g5h59te/",
+        "timestamp": "2020-09-16 20:24:10",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 16,
+        "confidence": 0.1320754716981132
+      },
+      {
+        "content": "One last note:\n\nWe are looking for positive individuals who would fit our mod team, we\u2019re a chill but dedicated bunch of redditors trying to keep one of reddit\u2019s fastest growing subs fun and interesti...",
+        "url": "https://reddit.com/r/nextfuckinglevel/comments/iiudh3/rnextfuckinglevel_is_looking_for_new_community/g38zo98/",
+        "timestamp": "2020-08-29 21:15:34",
+        "type": "comment",
+        "subreddit": "nextfuckinglevel",
+        "score": 111,
+        "confidence": 0.1320754716981132
+      },
+      {
+        "content": "Hi to your dad u/Lostvayne12 tell him to get on reddit we'll give him a good welcome party...",
+        "url": "https://reddit.com/r/u_GallowBoob/comments/i9u3vp/why_swiping_right_on_profiles_with_only_1_picture/g1hpczk/",
+        "timestamp": "2020-08-15 03:40:06",
+        "type": "comment",
+        "subreddit": "u_GallowBoob",
+        "score": 14,
+        "confidence": 0.1320754716981132
+      }
+    ]
+  }
+}

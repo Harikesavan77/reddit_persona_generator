@@ -1,0 +1,124 @@
+
+REDDIT USER PERSONA ANALYSIS
+============================
+
+Username: spez
+Analysis Date: 2025-07-14 18:26:28
+Account Age: 7343 days
+Total Karma: 931,884
+Analysis Confidence: 75.0%
+
+DEMOGRAPHICS & BASIC INFORMATION
+================================
+
+Age Range: adult
+Likely Gender: male
+Estimated Location: the long run
+
+PERSONALITY PROFILE
+==================
+
+Primary Traits: creative, optimistic, extroverted
+Communication Style: Unknown
+Humor Style: Unknown
+
+INTERESTS & EXPERTISE
+====================
+
+Primary Interests: Not determined
+Favorite Subreddits: ModSupport, modnews, u_spez, Snoo, ideasfortheadmins
+
+DIGITAL BEHAVIOR PATTERNS
+=========================
+
+Most Active Hour: 1:00
+Most Active Day: Saturday
+Total Posts: 12
+Total Comments: 63
+Average Posts Per Day: 0.00
+
+SENTIMENT PROFILE
+================
+
+Positive Sentiment: 58.7%
+Negative Sentiment: 5.3%
+Neutral Sentiment: 36.0%
+
+CITATIONS & EVIDENCE
+===================
+
+ESTIMATED AGE RANGE:
+  [1] Reddit’s next chapter: smarter, easier, still human Hi everyone,
+
+I haven’t posted in a while—and let’s be honest, when I do show up, it usually means something’s gone sideways (and if it’s not gone s...
+      Source: https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/
+      Date: 2025-05-05
+      Subreddit: r/u_spez
+      Confidence: 94.7%
+
+  [2] The web redesign, CSS, and mod tools Hi Mods,
+
+You may recall from my [announcement post](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) earlier this year that I m...
+      Source: https://reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/
+      Date: 2017-04-21
+      Subreddit: r/modnews
+      Confidence: 94.7%
+
+  [3] A New Challenger Appears! Today we are excited to announce that [Philippe Beaudette](https://www.reddit.com/u/AchievementUnlockd) has joined us to lead our Community team. He comes from Wikipedia by w...
+      Source: https://reddit.com/r/ModSupport/comments/4iwobz/a_new_challenger_appears/
+      Date: 2016-05-12
+      Subreddit: r/ModSupport
+      Confidence: 94.7%
+
+
+LIKELY GENDER:
+  [1] Reddit’s next chapter: smarter, easier, still human Hi everyone,
+
+I haven’t posted in a while—and let’s be honest, when I do show up, it usually means something’s gone sideways (and if it’s not gone s...
+      Source: https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/
+      Date: 2025-05-05
+      Subreddit: r/u_spez
+      Confidence: 95.5%
+
+  [2] Reddit is ProCSS Hi Mods,
+
+I wanted to follow up on the [CSS and redesign post](https://www.reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/) from a few weeks back and provide ...
+      Source: https://reddit.com/r/modnews/comments/6auyq9/reddit_is_procss/
+      Date: 2017-05-13
+      Subreddit: r/modnews
+      Confidence: 95.5%
+
+  [3] The web redesign, CSS, and mod tools Hi Mods,
+
+You may recall from my [announcement post](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) earlier this year that I m...
+      Source: https://reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/
+      Date: 2017-04-21
+      Subreddit: r/modnews
+      Confidence: 95.5%
+
+
+PERSONALITY TRAITS:
+  [1] Reddit’s next chapter: smarter, easier, still human Hi everyone,
+
+I haven’t posted in a while—and let’s be honest, when I do show up, it usually means something’s gone sideways (and if it’s not gone s...
+      Source: https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/
+      Date: 2025-05-05
+      Subreddit: r/u_spez
+      Confidence: 68.8%
+
+  [2] Reddit is ProCSS Hi Mods,
+
+I wanted to follow up on the [CSS and redesign post](https://www.reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/) from a few weeks back and provide ...
+      Source: https://reddit.com/r/modnews/comments/6auyq9/reddit_is_procss/
+      Date: 2017-05-13
+      Subreddit: r/modnews
+      Confidence: 68.8%
+
+  [3] The web redesign, CSS, and mod tools Hi Mods,
+
+You may recall from my [announcement post](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) earlier this year that I m...
+      Source: https://reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/
+      Date: 2017-04-21
+      Subreddit: r/modnews
+      Confidence: 68.8%
+

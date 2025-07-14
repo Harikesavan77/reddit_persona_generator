@@ -1,0 +1,634 @@
+{
+  "username": "spez",
+  "account_age": 7343,
+  "total_karma": 931884,
+  "estimated_age_range": "adult",
+  "likely_gender": "male",
+  "estimated_location": "the long run",
+  "occupation_indicators": [],
+  "personality_traits": [
+    "creative",
+    "optimistic",
+    "extroverted"
+  ],
+  "communication_style": "Unknown",
+  "humor_style": "Unknown",
+  "political_leaning": "Unknown",
+  "primary_interests": [],
+  "secondary_interests": [],
+  "expertise_areas": [],
+  "activity_pattern": {
+    "most_active_hour": 1,
+    "most_active_day": "Saturday",
+    "activity_by_hour": {
+      "22": 5,
+      "19": 1,
+      "21": 8,
+      "5": 4,
+      "4": 5,
+      "2": 8,
+      "1": 14,
+      "9": 1,
+      "23": 9,
+      "0": 12,
+      "6": 1,
+      "8": 1,
+      "7": 1,
+      "3": 4,
+      "20": 1
+    },
+    "activity_by_day": {
+      "Wednesday": 18,
+      "Monday": 5,
+      "Saturday": 28,
+      "Thursday": 13,
+      "Friday": 5,
+      "Tuesday": 5,
+      "Sunday": 1
+    },
+    "total_posts": 12,
+    "total_comments": 63,
+    "avg_posts_per_day": 0.0016342094511779927
+  },
+  "favorite_subreddits": [
+    "ModSupport",
+    "modnews",
+    "u_spez",
+    "Snoo",
+    "ideasfortheadmins",
+    "RedditIPO",
+    "wallstreetbets",
+    "IAmA",
+    "AskReddit",
+    "redditdev"
+  ],
+  "engagement_style": "Unknown",
+  "content_preference": "Unknown",
+  "sentiment_profile": {
+    "positive": 0.5866666666666667,
+    "negative": 0.05333333333333334,
+    "neutral": 0.36
+  },
+  "linguistic_patterns": {},
+  "behavioral_timeline": [],
+  "influence_network": {},
+  "analysis_confidence": 0.75,
+  "generation_timestamp": "2025-07-14T18:26:28.484466",
+  "citations": {
+    "estimated_age_range": [
+      {
+        "content": "Reddit\u2019s next chapter: smarter, easier, still human Hi everyone,\n\nI haven\u2019t posted in a while\u2014and let\u2019s be honest, when I do show up, it usually means something\u2019s gone sideways (and if it\u2019s not gone s...",
+        "url": "https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/",
+        "timestamp": "2025-05-05 19:38:03",
+        "type": "post",
+        "subreddit": "u_spez",
+        "score": 505,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "The web redesign, CSS, and mod tools Hi Mods,\n\nYou may recall from my [announcement post](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) earlier this year that I m...",
+        "url": "https://reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/",
+        "timestamp": "2017-04-21 21:34:29",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 1504,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "A New Challenger Appears! Today we are excited to announce that [Philippe Beaudette](https://www.reddit.com/u/AchievementUnlockd) has joined us to lead our Community team. He comes from Wikipedia by w...",
+        "url": "https://reddit.com/r/ModSupport/comments/4iwobz/a_new_challenger_appears/",
+        "timestamp": "2016-05-12 01:04:06",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 112,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "Admin released from captivity, reintroduced to Reddit community I am sad to share that u/krispykrackers is leaving Reddit. Over the past five years, she has done an incredible amount of work for us an...",
+        "url": "https://reddit.com/r/ModSupport/comments/4hwe15/admin_released_from_captivity_reintroduced_to/",
+        "timestamp": "2016-05-05 01:43:07",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 210,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "A few updates on what has been keeping us busy Hi All,\n\nI want to give you all an update with the things that are keeping us busy, and hopefully as a result, making you less busy:\n\n* **Spam**: Last qu...",
+        "url": "https://reddit.com/r/ModSupport/comments/4gh3yy/a_few_updates_on_what_has_been_keeping_us_busy/",
+        "timestamp": "2016-04-26 09:17:51",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 140,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "Introducing new API terms Today we are introducing standardized [API Terms of Use](/wiki/api). You, our community of developers, are important to us, and have been instrumental to the success of the R...",
+        "url": "https://reddit.com/r/redditdev/comments/3xdf11/introducing_new_api_terms/",
+        "timestamp": "2015-12-18 23:48:39",
+        "type": "post",
+        "subreddit": "redditdev",
+        "score": 70,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "I am Steve Huffman, the new CEO of reddit. AMA. Hey Everyone, I'm Steve, aka spez, the new CEO around here. For those of you who don't know me, I founded reddit ten years ago with my college roommate ...",
+        "url": "https://reddit.com/r/IAmA/comments/3cxedn/i_am_steve_huffman_the_new_ceo_of_reddit_ama/",
+        "timestamp": "2015-07-11 22:32:59",
+        "type": "post",
+        "subreddit": "IAmA",
+        "score": 41370,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "Hey thanks for the feedback. Glad you\u2019re liking it so far! We\u2019re working to make Answers better, and to better integrate it into the app.\n\nAnother type of query that I\u2019ve found works well is realtime ...",
+        "url": "https://reddit.com/r/RedditIPO/comments/1l4ru0o/reddit_answers_is_great_feedback_after_7_days_of/mwc4ui5/",
+        "timestamp": "2025-06-06 21:29:15",
+        "type": "comment",
+        "subreddit": "RedditIPO",
+        "score": 31,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "In the long run, I think there are a couple possible directions:\n\nA subreddit is single language and single culture (Most of Reddit historically, and a lot of Reddit today you may not see at all becau...",
+        "url": "https://reddit.com/r/TheoryOfReddit/comments/1kwpmln/what_is_the_future_of_multilingual_reddit/mulv4ch/",
+        "timestamp": "2025-05-28 05:02:33",
+        "type": "comment",
+        "subreddit": "TheoryOfReddit",
+        "score": 14,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "[This](https://web.archive.org/web/19970322055948/http://www.lysator.liu.se/etexts/) was the beginning of the internet for me. I used to access it from the public library after school. I can draw a st...",
+        "url": "https://reddit.com/r/ModSupport/comments/vzy7tk/we_might_be_laughing_a_bit_too_loud_aw_but_that/igbac4t/",
+        "timestamp": "2022-07-16 02:30:51",
+        "type": "comment",
+        "subreddit": "ModSupport",
+        "score": 23,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "Background: Four years ago, I met Jim over lunch, and he told me his and Taylor\u2019s story and how through GameChanger they were bringing joy to sick kids all over the country. I\u2019ve found their passion a...",
+        "url": "https://reddit.com/r/IAmA/comments/nmfg8x/im_jim_carol_founder_and_ceo_of_gamechanger/gzof6q0/",
+        "timestamp": "2021-05-28 01:46:43",
+        "type": "comment",
+        "subreddit": "IAmA",
+        "score": 39,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": ">Got any photos you can share of your Halloween costumes?\n\nClassified.\n\n>Cups with Pieces\n\nI love to think about the whole team of people working together to make that happen....",
+        "url": "https://reddit.com/r/ModSupport/comments/jgvda8/you_hear_the_creature_creepin_up_behind_on_yet/g9u720a/",
+        "timestamp": "2020-10-24 07:43:28",
+        "type": "comment",
+        "subreddit": "ModSupport",
+        "score": 3,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "We may just disagree on this point. It certainly used to be the case that there was a single Reddit community, and not just the time before subreddits. However, Reddit has grown so much that that is n...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4lb2e2/",
+        "timestamp": "2020-09-10 03:37:54",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 8,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "The fact of the matter is that we have to make posts to explain what\u2019s going on on Reddit. Communities do a better job at hosting a conversation than a massive public forum, which is what r/announceme...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4kj49n/",
+        "timestamp": "2020-09-09 23:48:05",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": -19,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "Proper crossposts work for r/announcements, but they don't show for ads because ads can't be crossposted (yet).\n\nOne difference between crossposts and links is that links don't show the body of the or...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4khwmt/",
+        "timestamp": "2020-09-09 23:38:29",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 8,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "The reason we did the sticky comment approach was simply because it was faster to build and it worked out of the box on every Reddit client, including third-party apps. The political season is upon us...",
+        "url": "https://reddit.com/r/ideasfortheadmins/comments/ipjfsv/admins_are_testing_a_new_announcement_feature_to/g4kgjew/",
+        "timestamp": "2020-09-09 23:26:58",
+        "type": "comment",
+        "subreddit": "ideasfortheadmins",
+        "score": 3,
+        "confidence": 0.9473684210526315
+      },
+      {
+        "content": "Indeed. We did it this way because it was faster. If this approach works, we'll do a proper version with crossposts....",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4k49hl/",
+        "timestamp": "2020-09-09 21:44:22",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": -21,
+        "confidence": 0.9473684210526315
+      }
+    ],
+    "likely_gender": [
+      {
+        "content": "Reddit\u2019s next chapter: smarter, easier, still human Hi everyone,\n\nI haven\u2019t posted in a while\u2014and let\u2019s be honest, when I do show up, it usually means something\u2019s gone sideways (and if it\u2019s not gone s...",
+        "url": "https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/",
+        "timestamp": "2025-05-05 19:38:03",
+        "type": "post",
+        "subreddit": "u_spez",
+        "score": 505,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "Reddit is ProCSS Hi Mods,\n\nI wanted to follow up on the [CSS and redesign post](https://www.reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/) from a few weeks back and provide ...",
+        "url": "https://reddit.com/r/modnews/comments/6auyq9/reddit_is_procss/",
+        "timestamp": "2017-05-13 05:41:09",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 9114,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "The web redesign, CSS, and mod tools Hi Mods,\n\nYou may recall from my [announcement post](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) earlier this year that I m...",
+        "url": "https://reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/",
+        "timestamp": "2017-04-21 21:34:29",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 1504,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "Goodbye, Chad! I am sad to share that u/deimorz is leaving Reddit (just the company, not the site, hopefully). Chad joined us back in 2013 when the company was only about ten people. He is the author ...",
+        "url": "https://reddit.com/r/modnews/comments/57iq2z/goodbye_chad/",
+        "timestamp": "2016-10-15 02:35:12",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 3573,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "A New Challenger Appears! Today we are excited to announce that [Philippe Beaudette](https://www.reddit.com/u/AchievementUnlockd) has joined us to lead our Community team. He comes from Wikipedia by w...",
+        "url": "https://reddit.com/r/ModSupport/comments/4iwobz/a_new_challenger_appears/",
+        "timestamp": "2016-05-12 01:04:06",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 112,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "Admin released from captivity, reintroduced to Reddit community I am sad to share that u/krispykrackers is leaving Reddit. Over the past five years, she has done an incredible amount of work for us an...",
+        "url": "https://reddit.com/r/ModSupport/comments/4hwe15/admin_released_from_captivity_reintroduced_to/",
+        "timestamp": "2016-05-05 01:43:07",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 210,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "A few updates on what has been keeping us busy Hi All,\n\nI want to give you all an update with the things that are keeping us busy, and hopefully as a result, making you less busy:\n\n* **Spam**: Last qu...",
+        "url": "https://reddit.com/r/ModSupport/comments/4gh3yy/a_few_updates_on_what_has_been_keeping_us_busy/",
+        "timestamp": "2016-04-26 09:17:51",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 140,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "Introducing new API terms Today we are introducing standardized [API Terms of Use](/wiki/api). You, our community of developers, are important to us, and have been instrumental to the success of the R...",
+        "url": "https://reddit.com/r/redditdev/comments/3xdf11/introducing_new_api_terms/",
+        "timestamp": "2015-12-18 23:48:39",
+        "type": "post",
+        "subreddit": "redditdev",
+        "score": 70,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "I am Steve Huffman, the new CEO of reddit. AMA. Hey Everyone, I'm Steve, aka spez, the new CEO around here. For those of you who don't know me, I founded reddit ten years ago with my college roommate ...",
+        "url": "https://reddit.com/r/IAmA/comments/3cxedn/i_am_steve_huffman_the_new_ceo_of_reddit_ama/",
+        "timestamp": "2015-07-11 22:32:59",
+        "type": "post",
+        "subreddit": "IAmA",
+        "score": 41370,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "That will be the nature of this call. We'll save the interesting stuff about the product and business for earnings, community AMA's, and [my posts](https://www.reddit.com/user/spez/comments/1kfciml/re...",
+        "url": "https://reddit.com/r/RedditIPO/comments/1l2ez20/rddt_annual_shareholder_meeting_less_than_a_week/mvtjzla/",
+        "timestamp": "2025-06-04 00:35:35",
+        "type": "comment",
+        "subreddit": "RedditIPO",
+        "score": 92,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "Brussels sprouts are the winner of Most Improved Vegetable of the Decade for me. Broccoli is next now that I\u2019ve finally connect them with ranch dressing....",
+        "url": "https://reddit.com/r/ModSupport/comments/kfnfkt/hi_im_new_happy_holidays_its_friday_lets_talk/ggbcn1t/",
+        "timestamp": "2020-12-19 06:38:23",
+        "type": "comment",
+        "subreddit": "ModSupport",
+        "score": 8,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "We may just disagree on this point. It certainly used to be the case that there was a single Reddit community, and not just the time before subreddits. However, Reddit has grown so much that that is n...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4lb2e2/",
+        "timestamp": "2020-09-10 03:37:54",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 8,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": ">This is just a way to let reddit's already intense Dem bias play out on the political ads you are running. So most R ads will be shit on in most places most of the time and most D ads will be lauded ...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4l7k68/",
+        "timestamp": "2020-09-10 03:07:23",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 1,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "The reason we did the sticky comment approach was simply because it was faster to build and it worked out of the box on every Reddit client, including third-party apps. The political season is upon us...",
+        "url": "https://reddit.com/r/ideasfortheadmins/comments/ipjfsv/admins_are_testing_a_new_announcement_feature_to/g4kgjew/",
+        "timestamp": "2020-09-09 23:26:58",
+        "type": "comment",
+        "subreddit": "ideasfortheadmins",
+        "score": 3,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "Today is probably the most awkward version of this approach since we really dived into the deep end with the experiment.\n\nRemember this isn\u2019t just about r/announcements. It\u2019s really a test of how we e...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4kd45b/",
+        "timestamp": "2020-09-09 22:55:48",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 0,
+        "confidence": 0.9545454545454546
+      },
+      {
+        "content": "You don\u2019t have to participate if you don\u2019t want to. However, we hope that many communities do want to.\n\nThe status quo was that Reddit would either moderate these discussions, or there would be no mod...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4k7ayq/",
+        "timestamp": "2020-09-09 22:09:02",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": -11,
+        "confidence": 0.9545454545454546
+      }
+    ],
+    "personality_traits": [
+      {
+        "content": "Reddit\u2019s next chapter: smarter, easier, still human Hi everyone,\n\nI haven\u2019t posted in a while\u2014and let\u2019s be honest, when I do show up, it usually means something\u2019s gone sideways (and if it\u2019s not gone s...",
+        "url": "https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/",
+        "timestamp": "2025-05-05 19:38:03",
+        "type": "post",
+        "subreddit": "u_spez",
+        "score": 505,
+        "confidence": 0.6875
+      },
+      {
+        "content": "Reddit is ProCSS Hi Mods,\n\nI wanted to follow up on the [CSS and redesign post](https://www.reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/) from a few weeks back and provide ...",
+        "url": "https://reddit.com/r/modnews/comments/6auyq9/reddit_is_procss/",
+        "timestamp": "2017-05-13 05:41:09",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 9114,
+        "confidence": 0.6875
+      },
+      {
+        "content": "The web redesign, CSS, and mod tools Hi Mods,\n\nYou may recall from my [announcement post](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) earlier this year that I m...",
+        "url": "https://reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/",
+        "timestamp": "2017-04-21 21:34:29",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 1504,
+        "confidence": 0.6875
+      },
+      {
+        "content": "A New Challenger Appears! Today we are excited to announce that [Philippe Beaudette](https://www.reddit.com/u/AchievementUnlockd) has joined us to lead our Community team. He comes from Wikipedia by w...",
+        "url": "https://reddit.com/r/ModSupport/comments/4iwobz/a_new_challenger_appears/",
+        "timestamp": "2016-05-12 01:04:06",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 112,
+        "confidence": 0.6875
+      },
+      {
+        "content": "Admin released from captivity, reintroduced to Reddit community I am sad to share that u/krispykrackers is leaving Reddit. Over the past five years, she has done an incredible amount of work for us an...",
+        "url": "https://reddit.com/r/ModSupport/comments/4hwe15/admin_released_from_captivity_reintroduced_to/",
+        "timestamp": "2016-05-05 01:43:07",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 210,
+        "confidence": 0.6875
+      },
+      {
+        "content": "A few updates on what has been keeping us busy Hi All,\n\nI want to give you all an update with the things that are keeping us busy, and hopefully as a result, making you less busy:\n\n* **Spam**: Last qu...",
+        "url": "https://reddit.com/r/ModSupport/comments/4gh3yy/a_few_updates_on_what_has_been_keeping_us_busy/",
+        "timestamp": "2016-04-26 09:17:51",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 140,
+        "confidence": 0.6875
+      },
+      {
+        "content": "That will be the nature of this call. We'll save the interesting stuff about the product and business for earnings, community AMA's, and [my posts](https://www.reddit.com/user/spez/comments/1kfciml/re...",
+        "url": "https://reddit.com/r/RedditIPO/comments/1l2ez20/rddt_annual_shareholder_meeting_less_than_a_week/mvtjzla/",
+        "timestamp": "2025-06-04 00:35:35",
+        "type": "comment",
+        "subreddit": "RedditIPO",
+        "score": 92,
+        "confidence": 0.6875
+      },
+      {
+        "content": "Red vines. I grew up on the east coast with Twizzlers and had a hard time transitioning, but Red Vines are clearly superior. But if you want to know the best licorice, it's Good & Plenty.\n\nJelly Belly...",
+        "url": "https://reddit.com/r/ModSupport/comments/ryer5p/mud_flowed_up_into_lumps_pajamas_she_totally/hroelsq/",
+        "timestamp": "2022-01-08 01:01:11",
+        "type": "comment",
+        "subreddit": "ModSupport",
+        "score": 7,
+        "confidence": 0.6875
+      },
+      {
+        "content": ">This is just a way to let reddit's already intense Dem bias play out on the political ads you are running. So most R ads will be shit on in most places most of the time and most D ads will be lauded ...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4l7k68/",
+        "timestamp": "2020-09-10 03:07:23",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 1,
+        "confidence": 0.6875
+      },
+      {
+        "content": "Can you shed more light on how this burns goodwill with mods?\n\nWe aren't forcing any communities to participate. Some of the communities we bounced this idea off are happy to give it a try, others sai...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4l3gto/",
+        "timestamp": "2020-09-10 02:31:55",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 0,
+        "confidence": 0.6875
+      },
+      {
+        "content": "Totally agree. We started with simple to try out the mechanic itself, but there is plenty of opportunity to make this better and easier to follow....",
+        "url": "https://reddit.com/r/ideasfortheadmins/comments/ipjfsv/admins_are_testing_a_new_announcement_feature_to/g4klncz/",
+        "timestamp": "2020-09-10 00:08:37",
+        "type": "comment",
+        "subreddit": "ideasfortheadmins",
+        "score": 7,
+        "confidence": 0.6875
+      },
+      {
+        "content": "The reason we did the sticky comment approach was simply because it was faster to build and it worked out of the box on every Reddit client, including third-party apps. The political season is upon us...",
+        "url": "https://reddit.com/r/ideasfortheadmins/comments/ipjfsv/admins_are_testing_a_new_announcement_feature_to/g4kgjew/",
+        "timestamp": "2020-09-09 23:26:58",
+        "type": "comment",
+        "subreddit": "ideasfortheadmins",
+        "score": 3,
+        "confidence": 0.6875
+      },
+      {
+        "content": "We considered not having the ads at all, but I think that would be a missed opportunity as ads (unfortunately) are a significant part of our political process. They\u2019re how candidates and issues reach ...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4k8z53/",
+        "timestamp": "2020-09-09 22:22:24",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": -12,
+        "confidence": 0.6875
+      },
+      {
+        "content": "You don\u2019t have to participate if you don\u2019t want to. However, we hope that many communities do want to.\n\nThe status quo was that Reddit would either moderate these discussions, or there would be no mod...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4k7ayq/",
+        "timestamp": "2020-09-09 22:09:02",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": -11,
+        "confidence": 0.6875
+      },
+      {
+        "content": "Awesome. I haven't read that one, which is something I can say for about 35 Discworld books.\n\nAt first I thought you were referring [The Art of Making Money](https://www.amazon.com/Art-Making-Money-Ma...",
+        "url": "https://reddit.com/r/ModSupport/comments/i9qscy/its_friday_i_dont_care_if_mondays_blue/g1h9kmc/",
+        "timestamp": "2020-08-15 01:34:31",
+        "type": "comment",
+        "subreddit": "ModSupport",
+        "score": 6,
+        "confidence": 0.6875
+      },
+      {
+        "content": "Goodbye, Chad! I am sad to share that u/deimorz is leaving Reddit (just the company, not the site, hopefully). Chad joined us back in 2013 when the company was only about ten people. He is the author ...",
+        "url": "https://reddit.com/r/modnews/comments/57iq2z/goodbye_chad/",
+        "timestamp": "2016-10-15 02:35:12",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 3573,
+        "confidence": 0.15
+      },
+      {
+        "content": "A few updates on what has been keeping us busy Hi All,\n\nI want to give you all an update with the things that are keeping us busy, and hopefully as a result, making you less busy:\n\n* **Spam**: Last qu...",
+        "url": "https://reddit.com/r/ModSupport/comments/4gh3yy/a_few_updates_on_what_has_been_keeping_us_busy/",
+        "timestamp": "2016-04-26 09:17:51",
+        "type": "post",
+        "subreddit": "ModSupport",
+        "score": 140,
+        "confidence": 0.15
+      },
+      {
+        "content": "In the long run, I think there are a couple possible directions:\n\nA subreddit is single language and single culture (Most of Reddit historically, and a lot of Reddit today you may not see at all becau...",
+        "url": "https://reddit.com/r/TheoryOfReddit/comments/1kwpmln/what_is_the_future_of_multilingual_reddit/mulv4ch/",
+        "timestamp": "2025-05-28 05:02:33",
+        "type": "comment",
+        "subreddit": "TheoryOfReddit",
+        "score": 14,
+        "confidence": 0.15
+      },
+      {
+        "content": "Regulation: We do our best to advocate for good Internet laws in the US and around the world. For example, we spent a lot of time with regulators around the world on age verification. Knowing they wer...",
+        "url": "https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/mqswhj2/",
+        "timestamp": "2025-05-06 05:51:06",
+        "type": "comment",
+        "subreddit": "u_spez",
+        "score": 14,
+        "confidence": 0.15
+      },
+      {
+        "content": "Red vines. I grew up on the east coast with Twizzlers and had a hard time transitioning, but Red Vines are clearly superior. But if you want to know the best licorice, it's Good & Plenty.\n\nJelly Belly...",
+        "url": "https://reddit.com/r/ModSupport/comments/ryer5p/mud_flowed_up_into_lumps_pajamas_she_totally/hroelsq/",
+        "timestamp": "2022-01-08 01:01:11",
+        "type": "comment",
+        "subreddit": "ModSupport",
+        "score": 7,
+        "confidence": 0.15
+      },
+      {
+        "content": "Pretty good. It's one of my favorite glasses. Lucky find....",
+        "url": "https://reddit.com/r/wallstreetbets/comments/lmxbr3/deleted_by_user/go1nkrg/",
+        "timestamp": "2021-02-20 01:59:18",
+        "type": "comment",
+        "subreddit": "wallstreetbets",
+        "score": 433,
+        "confidence": 0.15
+      },
+      {
+        "content": "When I first moved to San Francisco, someone told me I will be considered a local when I have a costume box. After 15 years, I can proudly say I now have an entire costume closet, to which I will be a...",
+        "url": "https://reddit.com/r/ModSupport/comments/jgvda8/you_hear_the_creature_creepin_up_behind_on_yet/g9sz5vq/",
+        "timestamp": "2020-10-24 03:17:40",
+        "type": "comment",
+        "subreddit": "ModSupport",
+        "score": 6,
+        "confidence": 0.15
+      },
+      {
+        "content": "Can you shed more light on how this burns goodwill with mods?\n\nWe aren't forcing any communities to participate. Some of the communities we bounced this idea off are happy to give it a try, others sai...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4l3gto/",
+        "timestamp": "2020-09-10 02:31:55",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 0,
+        "confidence": 0.15
+      },
+      {
+        "content": "Today is probably the most awkward version of this approach since we really dived into the deep end with the experiment.\n\nRemember this isn\u2019t just about r/announcements. It\u2019s really a test of how we e...",
+        "url": "https://reddit.com/r/modnews/comments/ipiung/today_were_testing_a_new_way_to_discuss_political/g4kd45b/",
+        "timestamp": "2020-09-09 22:55:48",
+        "type": "comment",
+        "subreddit": "modnews",
+        "score": 0,
+        "confidence": 0.15
+      },
+      {
+        "content": "Reddit\u2019s next chapter: smarter, easier, still human Hi everyone,\n\nI haven\u2019t posted in a while\u2014and let\u2019s be honest, when I do show up, it usually means something\u2019s gone sideways (and if it\u2019s not gone s...",
+        "url": "https://reddit.com/r/u_spez/comments/1kfciml/reddits_next_chapter_smarter_easier_still_human/",
+        "timestamp": "2025-05-05 19:38:03",
+        "type": "post",
+        "subreddit": "u_spez",
+        "score": 505,
+        "confidence": 0.075
+      },
+      {
+        "content": "Reddit is ProCSS Hi Mods,\n\nI wanted to follow up on the [CSS and redesign post](https://www.reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/) from a few weeks back and provide ...",
+        "url": "https://reddit.com/r/modnews/comments/6auyq9/reddit_is_procss/",
+        "timestamp": "2017-05-13 05:41:09",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 9114,
+        "confidence": 0.075
+      },
+      {
+        "content": "The web redesign, CSS, and mod tools Hi Mods,\n\nYou may recall from my [announcement post](https://www.reddit.com/r/announcements/comments/5q4qmg/out_with_2016_in_with_2017/) earlier this year that I m...",
+        "url": "https://reddit.com/r/modnews/comments/66q4is/the_web_redesign_css_and_mod_tools/",
+        "timestamp": "2017-04-21 21:34:29",
+        "type": "post",
+        "subreddit": "modnews",
+        "score": 1504,
+        "confidence": 0.075
+      },
+      {
+        "content": "The reason we did the sticky comment approach was simply because it was faster to build and it worked out of the box on every Reddit client, including third-party apps. The political season is upon us...",
+        "url": "https://reddit.com/r/ideasfortheadmins/comments/ipjfsv/admins_are_testing_a_new_announcement_feature_to/g4kgjew/",
+        "timestamp": "2020-09-09 23:26:58",
+        "type": "comment",
+        "subreddit": "ideasfortheadmins",
+        "score": 3,
+        "confidence": 0.075
+      }
+    ]
+  }
+}

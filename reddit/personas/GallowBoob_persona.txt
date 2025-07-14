@@ -1,0 +1,108 @@
+
+REDDIT USER PERSONA ANALYSIS
+============================
+
+Username: GallowBoob
+Analysis Date: 2025-07-14 18:54:28
+Account Age: 3933 days
+Total Karma: 36,833,307
+Analysis Confidence: 75.0%
+
+DEMOGRAPHICS & BASIC INFORMATION
+================================
+
+Age Range: adult
+Likely Gender: male
+Estimated Location: the title
+
+PERSONALITY PROFILE
+==================
+
+Primary Traits: creative, optimistic, extroverted
+Communication Style: Unknown
+Humor Style: Unknown
+
+INTERESTS & EXPERTISE
+====================
+
+Primary Interests: gaming
+Favorite Subreddits: u_GallowBoob, interestingasfuck, aww, nextfuckinglevel, BlackPeopleTwitter
+
+DIGITAL BEHAVIOR PATTERNS
+=========================
+
+Most Active Hour: 22:00
+Most Active Day: Friday
+Total Posts: 100
+Total Comments: 200
+Average Posts Per Day: 0.03
+
+SENTIMENT PROFILE
+================
+
+Positive Sentiment: 35.0%
+Negative Sentiment: 9.7%
+Neutral Sentiment: 55.3%
+
+CITATIONS & EVIDENCE
+===================
+
+ESTIMATED AGE RANGE:
+  [1] Nothing cooler than a rescued baby bats necklace. Baby bat season is upon us and the great folks at Bat World Sanctuary work double time saving these babies in Texas. ...
+      Source: https://reddit.com/r/aww/comments/ob3q1u/nothing_cooler_than_a_rescued_baby_bats_necklace/
+      Date: 2021-07-01
+      Subreddit: r/aww
+      Confidence: 78.6%
+
+  [2] Jo Brown started keeping her nature diary in a bid to document the small wonders of the woods behind her home in Devon and her work is some of the most fascinating i’ve ever seen. ...
+      Source: https://reddit.com/r/interestingasfuck/comments/iuo7en/jo_brown_started_keeping_her_nature_diary_in_a/
+      Date: 2020-09-17
+      Subreddit: r/interestingasfuck
+      Confidence: 78.6%
+
+  [3] Regarding the state of reddit and moderation: Just wanted to drop a brief 2cents regarding the current, and ongoing, state of this platform and its constant loud discourse around the pros and cons of ...
+      Source: https://reddit.com/r/u_GallowBoob/comments/ird261/regarding_the_state_of_reddit_and_moderation/
+      Date: 2020-09-12
+      Subreddit: r/u_GallowBoob
+      Confidence: 78.6%
+
+
+LIKELY GENDER:
+  [1] Friend spotted this guy riding his bike through the park with a wild crow sat on his head. This is peak existential chill. ...
+      Source: https://reddit.com/r/u_GallowBoob/comments/r3k10s/friend_spotted_this_guy_riding_his_bike_through/
+      Date: 2021-11-28
+      Subreddit: r/u_GallowBoob
+      Confidence: 81.6%
+
+  [2] This is a good way to visually demonstrate how borked any flat projection of a globe is. What a human face looks like stretched flat like a map: ...
+      Source: https://reddit.com/r/interestingasfuck/comments/odsuk7/this_is_a_good_way_to_visually_demonstrate_how/
+      Date: 2021-07-05
+      Subreddit: r/interestingasfuck
+      Confidence: 81.6%
+
+  [3] Super rare bilateral gynandromorph stag beetle. The left side is male and the right side is female. ...
+      Source: https://reddit.com/r/interestingasfuck/comments/o6jo02/super_rare_bilateral_gynandromorph_stag_beetle/
+      Date: 2021-06-24
+      Subreddit: r/interestingasfuck
+      Confidence: 81.6%
+
+
+PERSONALITY TRAITS:
+  [1] This is Nami. Her ears are finally starting to stand up, of course only one at a time.  ...
+      Source: https://reddit.com/r/aww/comments/1hm28v1/this_is_nami_her_ears_are_finally_starting_to/
+      Date: 2024-12-25
+      Subreddit: r/aww
+      Confidence: 47.2%
+
+  [2] Reddit to start paying its users for using the app? I guess it's time to come out of hibernation 👀 ...
+      Source: https://reddit.com/r/u_GallowBoob/comments/16saieb/reddit_to_start_paying_its_users_for_using_the/
+      Date: 2023-09-26
+      Subreddit: r/u_GallowBoob
+      Confidence: 47.2%
+
+  [3] Current state of reddit (art by beeple) ...
+      Source: https://reddit.com/r/u_GallowBoob/comments/148t5bm/current_state_of_reddit_art_by_beeple/
+      Date: 2023-06-14
+      Subreddit: r/u_GallowBoob
+      Confidence: 47.2%
+
